@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Lovable Nerd"
-theme = "tale-hugo"
+theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
