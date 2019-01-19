@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Lovable Nerd</title>
+    <link>/tags/research/</link>
+    <description>Recent content in Research on Lovable Nerd</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brands and the attachment gap</title>
+      <link>/2019/01/19/brands-and-the-attachment-gap/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/19/brands-and-the-attachment-gap/</guid>
+      <description>Following are the actual attachment scores from the study, based on stated connection to the brand.
+html { font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif; } #jszbhsogaj .gt_table { display: table; border-collapse: collapse; margin-left: auto; margin-right: auto; color: #000000; font-size: 16px; background-color: #FFFFFF; /* table.background.color */ width: auto; /* table.width */ border-top-style: solid; /* table.border.top.style */ border-top-width: 2px; /* table.</description>
+    </item>
+    
+  </channel>
+</rss>

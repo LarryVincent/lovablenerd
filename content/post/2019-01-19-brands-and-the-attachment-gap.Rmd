@@ -1,0 +1,36 @@
+---
+title: Brands and the attachment gap
+author: Larry Vincent
+date: '2019-01-19'
+slug: brands-and-the-attachment-gap
+categories: 
+ - Branding 
+ - Research
+tags:
+  - Brand Attachment
+  - Consumers
+  - Research
+---
+
+```{r echo=FALSE, include=FALSE}
+library(tidyverse)
+library(here)
+library(gt)
+
+df <- read_csv("../data/attachment/20180605-BDI.csv")
+```
+
+Following are the actual attachment scores from the study, based on stated connection to the brand.
+
+```{r attachment_overview, echo=FALSE, comment=NA}
+ df %>% 
+  select(contains("Connect")) %>% 
+  gather(brand, score) %>% 
+  filter(!is.na(score)) %>% 
+  group_by(brand) %>% 
+  summarise(n = sum(score == 1)) %>% 
+  mutate(pct = n/1351) %>% 
+  arrange(desc(n)) %>% 
+  gt()
+```
+
