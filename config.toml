@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Lovable Nerd"
 theme = "hugo-zen"
+copyright = "Laurence Vincent. All rights reserved."
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
